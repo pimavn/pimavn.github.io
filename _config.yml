@@ -1,0 +1,63 @@
+title: PiMA
+email: pimavn@gmail.com
+description: Projects in Mathematics and Applications
+url: https://www.tvhoang.com/pimavn # the base hostname & protocol for your site
+keywords: ["Programming", "Algorithm", "Mathematics"]
+
+timezone: "Asia/Ho_Chi_Minh"
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: <!--more-->
+permalink: articles/:year/:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+  math_engine: mathjax
+
+owner:
+  name: PiMA
+  avatar: favicon.png
+  # job: "Student"
+  # bio: "This is the place I keep notes of what I learnt and what I accomplished."
+  # email: thienvhoang99@gmail.com
+  disqus-shortname:
+  twitter: ThienVHoang
+  facebook:
+  google:
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: hoangvanthien
+  stackoverflow:
+  linkedin:
+  xing:
+  instagram: iamthienhoang
+  lastfm:
+  tumblr:
+  pinterest:
+  foursquare:
+  steam:
+  dribbble:
+  youtube:
+  soundcloud:
+  weibo:
+  flickr:
+  codepen:
+  telegram:
+
+exclude:
+  - LICENSE
+  - README.md
+
+plugins:
+  - jekyll-paginate
+
+paginate: 10
+paginate_path: "/page:num/"
+
