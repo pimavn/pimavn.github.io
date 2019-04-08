@@ -34,7 +34,7 @@ use-story-js: true
             </ul>
         </div>
         <div class="image">
-            <img src="/images/2018/student_paper.jpg" alt="" />
+            <img src="{{ site.url }}/images/2018/student_paper.jpg" alt="" />
         </div>
     </section>
     <section class="spotlight style1 orient-left content-align-right image-position-center onscroll-image-fade-in">
@@ -46,7 +46,7 @@ use-story-js: true
             </ul>
         </div>
         <div class="image">
-            <img src="/images/2018/lectures_and_projects.jpg" alt="" />
+            <img src="{{ site.url }}/images/2018/lectures_and_projects.jpg" alt="" />
         </div>
     </section>
     <section class="wrapper style1 align-center">
@@ -62,8 +62,8 @@ use-story-js: true
         <div class="gallery style2 medium lightbox onscroll-fade-in">
             {% for item in page.gallery %}
             <article>
-                <a href="/images/2018/{{ item.img }}" class="image">
-                    <img src="/images/2018/{{ item.img }}" alt="" />
+                <a href="{{ site.url }}/images/2018/{{ item.img }}" class="image">
+                    <img src="{{ site.url }}/images/2018/{{ item.img }}" alt="" />
                 </a>
                 <div class="caption">
                     <h3>{{ item.label }}</h3>
