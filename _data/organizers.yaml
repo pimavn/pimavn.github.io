@@ -1,0 +1,17 @@
+thien:
+  name: "Hoàng Văn Thiên"
+  aff: "Vietnamese-German University"
+  img: "thien.jpg"
+trung:
+  name: "Cấn Trần Thành Trung"
+  aff: "Caltech"
+  img: "trung.jpg"
+linh:
+  name: "Trần Hoàng Bảo Linh"
+  aff: "National University of Singapore"
+  img: "linh.jpg"
+hoang:
+  name: "Phan Minh Hoàng"
+  aff: "University of Waterloo"
+
+  

@@ -1,0 +1,23 @@
+---
+layout: post
+---
+{% for team in page.teams %}
+<br><br>
+<h2 class="align-center">{{ team.team-name }}</h2>
+<div class="gallery onscroll-fade-in style1 medium">
+    {% for item in team.list %}
+    {% assign tempperson=site.data.organizers | map: item %}
+    {% assign person = tempperson[0] %}
+    <article style="border-radius:50%;">
+        <a href="{{ site.url }}/images/organizers/{% if person.img %}{{ person.img }}{% else %}default.png{% endif %}" style="border-radius:50%;" class="image" data-lightbox="organizing-team-{{ year }}" data-title="{{ person.name }}<br>{{ person.aff }}">
+            <img src="{{ site.url }}/images/organizers/{% if person.img %}{{ person.img }}{% else %}default.png{% endif %}" alt="" style="border-radius:50%; object-fit: cover;" class="pima-avatar"/>
+        </a>
+        <div class="caption">
+            <h3>{{ person.name }}</h3>
+            <p>{{ person.aff }}</p>
+        </div>
+    </article>
+    {% endfor %}
+</div>
+{% endfor %}
+

@@ -1,0 +1,19 @@
+---
+layout: post
+---
+{% for section in page.sections %}
+<br><br>
+<h2>{{ section.section-name }}</h2>
+<div class="gallery onscroll-fade-in style1 medium">
+    {% for item in section.list %}
+    <article>
+        <a href="{{ site.url }}/images/{{ page.year }}/{{ item.img }}.jpg" class="image" data-lightbox="gallery-{{ page.year }}" data-title="{{ section.section-name }}<br>{{ item.caption }}">
+            <img src="{{ site.url }}/images/{{ page.year }}/{{ item.img }}.jpg" alt="" />
+        </a>
+        <div class="caption">
+            <p>{{ item.caption }}</p>
+        </div>
+    </article>
+    {% endfor %}
+</div>
+{% endfor %}

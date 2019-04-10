@@ -1,0 +1,45 @@
+---
+layout: post
+year: 2018
+title: Student Papers
+use-story-js: true
+papers:
+  - title: Naive-Bayes
+    href: "#"
+    authors:
+    - name: Nguyễn Nguyễn
+      school: Trường Phổ thông Năng khiếu, Đại học Quốc gia TP. HCM
+    - name: Huỳnh Phạm Phương Mai
+      school: Trường THPT Chuyên Lê Hồng Phong, TP. HCM
+    - name: Nguyễn Tất Đạt
+      school: Trường THPT Chuyên Sư Phạm, Hà Nội
+    - name: Nguyễn An Tường
+      school: Trường THPT Chuyên Nguyễn Tất Thành, Kon Tum
+  - title: Principal Component Analysis
+    href: "#"
+    authors:
+    - name: Trần Thanh Bình
+      school: Trường Phổ thông Năng khiếu, Đại học Quốc gia TP. HCM
+    - name: Võ Thục Khánh Huyền
+      school: Trường THPT Chuyên Lê Quý Đôn, Quảng Trị 
+    - name: Lê Quang Kỳ
+      school: Trường THPT Chuyên Hoàng Lê Kha, Tây Ninh
+    - name: Đỗ Nhật Hoàng
+      school: Trường Phổ thông Năng khiếu, Đại học Quốc gia TP. HCM
+---
+
+{% for paper in page.papers %}
+<h3>{{ paper.title }}</h3><br>
+<p><em>Tác giả:</em></p><br>
+<ul>
+    {% for author in paper.authors %}
+    <li><strong>{{ author.name }}</strong>, {{ author.school }}</li>
+    {% endfor %}
+</ul>
+<br>
+<ul class="actions stacked">
+    <li><a href="{{ paper.href }}" class="button">Download</a></li>
+</ul>
+{% endfor %}
+
+<hr>

@@ -4,10 +4,10 @@ navbar:
   - label: Summer Camps
     dropdown:
       - label: 2018
-        href: "/summer_camps/2018"
+        href: "summer_camps/2018"
       - label: 2017
-        href: "/summer_camps/2017"
+        href: "summer_camps/2017"
       - label: 2016
-        href: "/summer_camps/2016"
+        href: "summer_camps/2016"
   - label: Contact
-    href: "/contact"
+    href: "contact"

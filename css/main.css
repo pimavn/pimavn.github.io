@@ -8,3 +8,7 @@
 #mainNav {
     background: black;
 }
+.pima-avatar {
+    min-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div id="wrapper" class="divided">
+    {% if page.year %}
+        {% include {{page.year}}.html %}
+    {% else %}
+        {% include normal_banner.html %}
+    {% endif %}
+    <section class="wrapper style1 align-center">
+        <div class="inner">
+            <h2>{{ page.title }}</h2>
+            <div class="align-left">
+                {{ content }}
+            </div>
+        </div>
+    </section>
+</div>

@@ -6,11 +6,12 @@
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="{{ site.author }}">
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }} {% if page.year %}{{ page.year }}{% endif %}</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="{{ site.url }}/css/html5upstory.css" rel="stylesheet">
     <link href="{{ site.url }}/css/noscript.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.url }}/lightbox/css/lightbox.min.css">
     <link href="{{ site.url }}/css/main.css" rel="stylesheet">
 
     <link href="{{ site.url }}/css/font-awesome.min.css" rel="stylesheet" type="text/css">

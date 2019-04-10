@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<div id="wrapper" class="divided">
+    {% include {{ page.year }}.html %}
+    {% assign style = "orient-right content-align-left" %}
+    {% for section in page.sections %}
+    <section class="spotlight style1 {{ style }} image-position-center onscroll-image-fade-in">
+        <div class="content">
+            <h2>{{ section.title }}</h2>
+            <p>{{ section.description }}</p>
+            <ul class="actions stacked">
+                <li><a href="{{ section.href }}" class="button">Learn More</a></li>
+            </ul>
+        </div>
+        <div class="image">
+            <img src="{{ site.url }}/images/{{ page.year }}/{{ section.img }}" alt="" />
+        </div>
+        {% if style == "orient-right content-align-left" %}
+            {% assign style = "orient-left content-align-right" %}
+        {% else %}
+            {% assign style = "orient-right content-align-left" %}
+        {% endif %}
+    </section>
+    {% endfor %}
+    <section class="wrapper style1 align-center">
+        <div class="inner">
+            <h2>Gallery</h2>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <ul class="actions stacked">
+                <li><a href="gallery" class="button">Learn More</a></li>
+            </ul>
+        </div>
+        <div class="forward"></div>
+        <div class="backward"></div>
+        <div class="gallery style2 medium onscroll-fade-in">
+            {% for item in page.gallery %}
+            <article>
+                <a href="{{ site.url }}/images/{{ page.year }}/{{ item.img }}.jpg" class="image" data-lightbox="gallery-preview-{{ page.year }}" data-title="{{ item.caption }}">
+                    <img src="{{ site.url }}/images/{{ page.year }}/{{ item.img }}.jpg" alt="" />
+                </a>
+                <div class="caption">
+                    <p>{{ item.caption }}</p>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+    </section>
+</div>
