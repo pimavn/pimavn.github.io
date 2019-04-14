@@ -8,9 +8,9 @@ layout: post
     {% for item in team.list %}
     {% assign tempperson=site.data.organizers | map: item %}
     {% assign person = tempperson[0] %}
-    <article style="border-radius:50%;">
-        <a href="{{ site.url }}/images/organizers/{% if person.img %}{{ person.img }}{% else %}default.png{% endif %}" style="border-radius:50%;" class="image" data-lightbox="organizing-team-{{ year }}" data-title="{{ person.name }}<br>{{ person.aff }}">
-            <img src="{{ site.url }}/images/organizers/{% if person.img %}{{ person.img }}{% else %}default.png{% endif %}" alt="" style="border-radius:50%; object-fit: cover;" class="pima-avatar"/>
+    <article>
+        <a href="{{ site.url }}/images/organizers/{% if person.img %}{{ person.img }}{% else %}default.png{% endif %}" class="image" data-lightbox="organizing-team-{{ year }}" data-title="{{ person.name }}<br>{{ person.aff }}">
+            <img src="{{ site.url }}/images/organizers/{% if person.img %}{{ person.img }}{% else %}default.png{% endif %}" alt="" style="object-fit: cover;" class="pima-avatar"/>
         </a>
         <div class="caption">
             <h3>{{ person.name }}</h3>

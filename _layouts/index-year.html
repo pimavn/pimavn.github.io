@@ -39,9 +39,11 @@ layout: default
                 <a href="{{ site.url }}/images/{{ page.year }}/{{ item.img }}" class="image" data-lightbox="gallery-preview-{{ page.year }}" data-title="{{ item.caption }}">
                     <img src="{{ site.url }}/images/{{ page.year }}/{{ item.img }}" alt="" />
                 </a>
+                {% if item.caption %}
                 <div class="caption">
                     <p>{{ item.caption }}</p>
                 </div>
+                {% endif %}
             </article>
             {% endfor %}
         </div>

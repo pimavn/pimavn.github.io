@@ -7,3 +7,7 @@ pima2018:
 # Nối tiếp thành công của năm 2016 và 2017, trại hè “Toán học và Ứng dụng” đã chính thức trở lại với chủ đề “The Mathematics of Machine Learning”. 
 # Machine Learning là một lĩnh vực mới mẻ đang trên đà bùng nổ vì có những ứng dụng quan trọng trong phân tích dữ liệu, phân loại hình ảnh hay tạo ra trí tuệ nhân tạo. Các bạn học sinh Việt Nam với thế mạnh về Toán và Tin học là nguồn nhân lực rất tiềm năng để phát triển lĩnh vực này trong tương lai. Do đó, PiMA 2018 mong muốn mang đến cho các bạn cơ hội tìm hiểu về các chủ đề toán cao cấp quan trọng và ứng dụng của chúng trong Machine Learning. 
 # -------------
+pima2017:
+  title: "PiMA Summer Camp 2017"
+  subtitle: "Mathematical and Multidisciplinary Models"
+  img: "/images/2017/img8-23.jpg"

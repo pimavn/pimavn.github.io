@@ -1,9 +1,11 @@
 thien:
   name: "Hoàng Văn Thiên"
   aff: "Vietnamese-German University"
+  info: "Bachelor of Computer Science"
   img: "thien.jpg"
 trung:
   name: "Cấn Trần Thành Trung"
+  info: "PhD Student"
   aff: "Caltech"
   img: "trung.jpg"
 linh:
@@ -13,3 +15,70 @@ linh:
 hoang:
   name: "Phan Minh Hoàng"
   aff: "University of Waterloo"
+  img: "hoang.jpg"
+hai:
+  name: "Lê Việt Hải"
+  aff: "Pennsylvania State University"
+  info: "PhD Student"
+  img: "hai.jpeg"
+trannamdung:
+  name: "Trần Nam Dũng, PhD"
+  aff: "University of Natural Sciences - VNU"
+  info: "Mathematics Department"
+  img: "trannamdung.jpg"
+vovantoi:
+  name: "Võ Văn Tới, PhD"
+  aff: "International University - VNU"
+  info: "Chair of Biomedical Engineering Department"
+  img: "vovantoi.jpg"
+minh:
+  name: "Lê Ngọc Minh"
+  aff: "Union College, class of 2020"
+  info: "B.S., Economics and Computer Science"
+  img: "minh.jpg"
+theanh:
+  name: "Vũ Lê Thế Anh"
+  aff: "HCMC University of Science"
+  img: "theanh.jpg"
+tu:
+  name: "Nguyễn Ngọc Minh Tú"
+  aff: "Minerva Schools at KGI, Class of 2020"
+  img: "tu.jpg"
+tai:
+  name: "Vũ Đức Tài"
+  aff: "​Hanoi University of Science"
+  img: "tai.jpg"
+manh:
+  name: "Phạm Nguyễn Mạnh"
+  aff: "Minerva Schools at KGI"
+  img: "manh.jpg"
+khang:
+  name: "Nguyễn Vĩnh Khang"
+  aff: "Liberty University"
+  img: "khang.jpeg"
+tien:
+  name: "Phan Ngọc Tiên"
+  aff: "York University"
+  img: "tien.jpg"
+phu:
+  name: "Đỗ Hoàng Gia Phú"
+  aff: "Pham Ngoc Thach University of Medical"
+  img: "phu.jpg"
+lien:
+  name: "Trần Thị Diệu Liên"
+  aff: "Harvard University"
+  img: "lien.jpg"
+tuananh:
+  name: "Phạm Nguyễn Tuấn Anh"
+  aff: "​Nanyang Technological University"
+  img: "tuananh.jpg"
+quan:
+  name: "Phạm Tấn Anh Quân"
+  aff: "​HCMC University of Science"
+  img: "anhquan.jpg"
+phuong:
+  name: "Đinh Lâm Kiều Phương"
+  aff: "​HCMC University of Science"
+nhat:
+  name: "Phạm Hoàng Nhật"
+  aff: ""
