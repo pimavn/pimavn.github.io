@@ -36,8 +36,8 @@ layout: default
         <div class="gallery style2 medium onscroll-fade-in">
             {% for item in page.gallery %}
             <article>
-                <a href="{{ site.url }}/images/{{ page.year }}/{{ item.img }}.jpg" class="image" data-lightbox="gallery-preview-{{ page.year }}" data-title="{{ item.caption }}">
-                    <img src="{{ site.url }}/images/{{ page.year }}/{{ item.img }}.jpg" alt="" />
+                <a href="{{ site.url }}/images/{{ page.year }}/{{ item.img }}" class="image" data-lightbox="gallery-preview-{{ page.year }}" data-title="{{ item.caption }}">
+                    <img src="{{ site.url }}/images/{{ page.year }}/{{ item.img }}" alt="" />
                 </a>
                 <div class="caption">
                     <p>{{ item.caption }}</p>
