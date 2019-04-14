@@ -1,9 +1,8 @@
-{% if page.use-story-js %}
 <script src="{{site.url}}/js/story/jquery.scrollex.min.js"></script>
 <script src="{{site.url}}/js/story/jquery.scrolly.min.js"></script>
 <script src="{{site.url}}/js/story/browser.min.js"></script>
 <script src="{{site.url}}/js/story/breakpoints.min.js"></script>
 <script src="{{site.url}}/js/story/util.js"></script>
 <script src="{{site.url}}/js/story/main.js"></script>
-<script type="text/javascript" src="{{ site.url }}/lightbox/js/lightbox.min.js"></script>
-{% endif %}
+<script type="text/javascript" src="{{ site.url }}/lightbox/js/lightbox.js"></script>
+<script>lightbox.option({disableScrolling:true})</script>

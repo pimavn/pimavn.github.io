@@ -2,7 +2,7 @@
 layout: default
 ---
 <div id="wrapper" class="divided">
-    {% include {{ page.year }}.html %}
+    {% include summer_camp_banner.html %}
     {% assign style = "orient-right content-align-left" %}
     {% for section in page.sections %}
     <section class="spotlight style1 {{ style }} image-position-center onscroll-image-fade-in">
@@ -25,10 +25,10 @@ layout: default
     {% endfor %}
     <section class="wrapper style1 align-center">
         <div class="inner">
-            <h2>Gallery</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <h2>{{ page.gallery-section.title }}</h2>
+            <p>{{ page.gallery-section.description }}</p>
             <ul class="actions stacked">
-                <li><a href="gallery" class="button">Learn More</a></li>
+                <li><a href="{{ page.gallery-section.href }}" class="button">Learn More</a></li>
             </ul>
         </div>
         <div class="forward"></div>

@@ -1,0 +1,13 @@
+{% capture key_value %}pima{{ page.year }}{% endcapture %}
+{% assign banner_data_tmp = site.data.banners | map: key_value %}
+{% assign banner_data = banner_data_tmp[0] %}
+<section class="banner onload-image-fade-in onload-content-fade-right - style2 image-position-center orient-left content-align-left {{ page.banner }}">
+    <div class="content" style="background: transparent;">
+        <h1>{{ banner_data.title }}</h1>
+        <h2><em>{{ banner_data.subtitle }}</em></h2>
+        <p>{{ banner_data.desc }}</p>
+    </div>
+    <div class="image" style="opacity: .5;">
+        <img src="{{ site.url }}{{ banner_data.img }}" alt="" />
+    </div>
+</section>

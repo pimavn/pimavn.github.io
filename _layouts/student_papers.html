@@ -1,0 +1,19 @@
+---
+layout: post
+---
+
+{% for paper in page.papers %}
+<h3>{{ paper.title }}</h3><br>
+<p><em>Tác giả:</em></p><br>
+<ul>
+    {% for author in paper.authors %}
+    <li><strong>{{ author.name }}</strong>, {{ author.school }}</li>
+    {% endfor %}
+</ul>
+<br>
+<ul class="actions stacked">
+    <li><a href="{{ paper.href }}" class="button">Download</a></li>
+</ul>
+{% endfor %}
+
+<hr>

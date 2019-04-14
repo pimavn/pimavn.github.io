@@ -9,5 +9,5 @@ navbar:
         href: "summer_camps/2017"
       - label: 2016
         href: "summer_camps/2016"
-  - label: Contact
-    href: "contact"
+  - label: Blog
+    href: "blog"
