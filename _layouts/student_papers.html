@@ -2,18 +2,24 @@
 layout: post
 ---
 
+<div class="index align-left">
 {% for paper in page.papers %}
-<h3>{{ paper.title }}</h3><br>
-<p><em>Tác giả:</em></p><br>
-<ul>
-    {% for author in paper.authors %}
-    <li><strong>{{ author.name }}</strong>, {{ author.school }}</li>
-    {% endfor %}
-</ul>
+<section>
+    <header>
+        <h3>{{ paper.title }}</h3>
+    </header>
+    <div class="content">
+        <ul>
+            {% for author in paper.authors %}
+            <li><strong>{{ author.name }}</strong>, {{ author.school }}</li>
+            {% endfor %}
+        </ul>
+        <ul class="actions stacked">
+            <li><a href="{{ site.url }}{{ paper.href }}" class="button">Download</a></li>
+        </ul>
+    </div>
+</section>
 <br>
-<ul class="actions stacked">
-    <li><a href="{{ paper.href }}" class="button">Download</a></li>
-</ul>
 {% endfor %}
-
+</div>
 <hr>
