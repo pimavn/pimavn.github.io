@@ -18,9 +18,13 @@ layout: post
                 {% endif %}
                 {% endfor %}
             </ul>
-            <ul class="actions stacked">
-                <li><a href="{{ site.url }}{{ lect.href }}" class="button">Download</a></li>
-            </ul>
+            {% assign link = lect.href | strip %}
+            {% assign prefix = link | truncate: 7 %}
+            {% if prefix != 'http...' %}
+            <a href="{{ site.url }}{{ link }}" class="button {% if link == '' %}disabled{% endif %}">Download</a>
+            {% else %}
+            <a href="{{ link }}" class="button">Link</a>
+            {% endif %}
         </div>
     </section>
     <br>
@@ -36,9 +40,7 @@ layout: post
         <header><h3>{{ proj.title }}</h3></header>
         <div class="content">
             <p>{{ proj.desc }}</p>
-            <ul class="actions stacked">
-                <li><a href="{{ site.url }}{{ proj.href }}" class="button">Download</a></li>
-            </ul>
+            <a href="{{ site.url }}{{ proj.href }}" class="button">Download</a>
         </div>
     </section>
     <br>

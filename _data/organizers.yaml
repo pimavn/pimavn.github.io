@@ -1,6 +1,6 @@
 thien:
   name: "Hoàng Văn Thiên"
-  aff: "Vietnamese-German University"
+  aff: "Vietnamese-German University - Frankfurt UAS"
   info: "Bachelor of Computer Science"
   img: "thien.jpg"
 trung:
@@ -88,3 +88,6 @@ nghia:
 trong:
   name: "Dương Đình Trọng"
   aff: "International University, VNU"
+maianh:
+  name: "Nguyễn Thị Mai Anh"
+  aff: "Massachusetts Institute of Technology"
