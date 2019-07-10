@@ -14,7 +14,7 @@ layout: default
             <div class="align-left">
                 {% if page.date %}<em>Posted on: {{ page.date | date: "%-d/%-m/%Y" }}</em>{% endif %}
                 {% if page.author %}<em>, by {{ page.author }}</em>{% endif %}
-                <br>
+                <br><hr><br>
                 {% if page.feature-img %}
                 <div class="post-image-feature">
                     <img class="feature-image" src="{{ site.url }}{{ page.feature-img }}" alt>
