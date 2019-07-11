@@ -1,0 +1,7 @@
+.container {
+  margin-left: 0;
+  min-width: 100%;
+}
+#notebook-container {
+  box-shadow: none;
+}
