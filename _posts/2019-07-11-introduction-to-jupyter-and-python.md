@@ -2,7 +2,6 @@
 layout: post
 excerpt-separator: <!--more-->
 author: Thien Hoang
-draft: "yes"
 title: "Cách sử dụng Jupyter Notebook và <br>các khái niệm cơ bản trong Python"
 ---
 
