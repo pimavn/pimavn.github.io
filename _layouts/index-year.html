@@ -23,6 +23,7 @@ layout: default
         {% endif %}
     </section>
     {% endfor %}
+    {% if page.gallery-section.disable != true %}
     <section class="wrapper style1 align-center">
         <div class="inner">
             <h2>{{ page.gallery-section.title }}</h2>
@@ -48,4 +49,5 @@ layout: default
             {% endfor %}
         </div>
     </section>
+    {% endif %}
 </div>

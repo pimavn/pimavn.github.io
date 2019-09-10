@@ -90,7 +90,7 @@ trong:
   aff: "International University, VNU"
 maianh:
   name: "Nguyễn Thị Mai Anh"
-  aff: "Massachusetts Institute of Technology"
+  aff: "Massachusetts Institute of Technology, USA"
 hung:
   name: "Hồ Quốc Đăng Hưng"
   aff: "University of Chicago, USA"
@@ -103,3 +103,21 @@ nhu:
 huyhoang:
   name: "Nguyễn Huy Hoàng"
   aff: "Minerva Schools at KGI"
+vntduong:
+  name: "Vương Nguyễn Thùy Dương"
+  aff: "Massachusetts Institute of Technology, USA"
+lthien:
+  name: "Lê Thiện"
+  aff: "Massachusetts Institute of Technology, USA"
+ngng:
+  name: "Nguyễn Nguyễn"
+  aff: "HCMC University of Science"
+tmnguyen:
+  name: "Trần Minh Nguyên"
+  aff: "HCMC University of Science"
+nmhuy:
+  name: "Nguyễn Minh Huy"
+  aff: "HCMC University of Science"
+lhphuc:
+  name: "Lâm Hữu Phúc"
+  aff: "University of Rochester, USA"
