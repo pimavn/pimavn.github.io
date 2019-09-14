@@ -5,17 +5,30 @@ layout: post
 <br><br>
 <h2>{{ section.section-name }}</h2>
 <div class="gallery style1 medium">
-    {% for item in section.list %}
-    <article style="padding: 5px;">
-        <a href="{{ site.url }}/images/{{ page.year }}/{{ item.img }}" class="image" data-lightbox="gallery-{{ page.year }}" data-title="{{ section.section-name }}<br>{{ item.caption }}">
-            <img src="{{ site.url }}/images/{{ page.year }}/{{ item.img }}" alt="" />
-        </a>
-        {% if item.caption %}
-        <div class="caption">
-            <p>{{ item.caption }}</p>
-        </div>
+    <table>
+        {% assign cnt = 0 %}
+        {% for item in section.list %}
+        {% if cnt == 0 %}
+        <tr>
         {% endif %}
-    </article>
-    {% endfor %}
+        {% assign cnt = cnt | plus: 1 %}
+        <td style="padding: 5px;" width=33%>
+        <article style="width: 100%;">
+            <a href="{{ site.url }}/images/{{ page.year }}/{{ item.img }}" class="image" data-lightbox="gallery-{{ page.year }}" data-title="{{ section.section-name }}<br>{{ item.caption }}">
+                <img style="display: inline; vertical-align: middle;" src="{{ site.url }}/images/{{ page.year }}/{{ item.img }}" alt="" />
+            </a>
+            {% if item.caption %}
+            <div class="caption">
+                <p>{{ item.caption }}</p>
+            </div>
+            {% endif %}
+        </article>
+        </td>
+        {% if cnt == 3 %}
+        </tr>
+        {% assign cnt = 0 %}
+        {% endif %}
+        {% endfor %}
+    </table>
 </div>
 {% endfor %}
