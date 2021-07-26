@@ -7,6 +7,15 @@ title: "Cách sử dụng Jupyter Notebook và <br>các khái niệm cơ bản t
 
 Jupyter Notebook là một trong những môi trường làm việc phổ biến cho các tác vụ xử lý dữ liệu. Jupyter hỗ trợ nhiều ngôn ngữ, trong đó có Python 3. Chúng tôi khuyến khích các bạn cài đặt Jupyter và Python 3 thông qua [Anaconda](https://www.anaconda.com/distribution/). Phần mềm này giúp cài đặt hầu hết các thư viện Python cần thiết để các bạn có thể sẵn sàng lập trình cho project của mình.
 
+Lưu ý: Trong quá trình cài đặt Anaconda trên Windows, các bạn có thể tick vào ô trống đầu tiên đi kèm dòng chữ đỏ (xem hình).
+
+<div class="post-image">
+    <a href="/images/blog/anaconda-note.png" data-lightbox="eiqomima" data-title="Lưu ý khi cài đặt Anaconda">
+        <img src="/images/blog/anaconda-note.png">
+    </a>
+    <p class="post-image-caption">Lưu ý khi cài đặt Anaconda</p>
+</div>
+
 <!--more-->
 
 Sau khi cài đặt xong Anaconda, các bạn vào Command Prompt (Windows) hoặc Terminal (Mac/Linux) rồi gõ lệnh:
