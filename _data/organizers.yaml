@@ -3,6 +3,27 @@ thien:
   aff: "Vietnamese-German University - Frankfurt UAS"
   info: "Bachelor of Computer Science"
   img: "thien.jpg"
+thu:
+  name: "Nguyễn Thị Minh Thư"
+  aff: "International University - VNU"
+ntrung:
+  name: "Nguyễn Mạc Nam Trung"
+  aff: "HCMC University of Science"
+linh_2:
+  name: "Trần Hoàng Bảo Linh"
+  aff: "Yale University"
+theanh_2:
+  name: "Vũ Lê Thế Anh"
+  aff: "HCMC University of Science - JVN"
+long:
+  name: "Nguyễn Hồ Thăng Long"
+  aff: "HCMC University of Science"
+thuc:
+  name: "Lê Duy Thức"
+  aff: "HCMC University of Science"
+phuc:
+  name: "Nguyễn Đình Hoàng Phúc"
+  aff: "HCMC University of Science"
 trung:
   name: "Cấn Trần Thành Trung"
   info: "PhD Student"
@@ -112,6 +133,9 @@ lthien:
 ngng:
   name: "Nguyễn Nguyễn"
   aff: "HCMC University of Science"
+ngng2:
+  name: "Nguyễn Nguyễn"
+  aff: "Duke University"
 tmnguyen:
   name: "Trần Minh Nguyên"
   aff: "HCMC University of Science"
