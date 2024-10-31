@@ -8,22 +8,22 @@ thu:
   aff: "International University - VNU"
 ntrung:
   name: "Nguyễn Mạc Nam Trung"
-  aff: "HCMC University of Science"
+  aff: "VNUHCM University of Science, Vietnam"
 linh_2:
   name: "Trần Hoàng Bảo Linh"
   aff: "Yale University"
 theanh_2:
   name: "Vũ Lê Thế Anh"
-  aff: "HCMC University of Science - JVN"
+  aff: "University of Illinois Urbana-Champaign, USA"
 long:
   name: "Nguyễn Hồ Thăng Long"
-  aff: "HCMC University of Science"
+  aff: "VNUHCM University of Science, Vietnam"
 thuc:
   name: "Lê Duy Thức"
-  aff: "HCMC University of Science"
+  aff: "VNUHCM University of Science, Vietnam"
 phuc:
   name: "Nguyễn Đình Hoàng Phúc"
-  aff: "HCMC University of Science"
+  aff: "VNUHCM University of Science, Vietnam"
 trung:
   name: "Cấn Trần Thành Trung"
   info: "PhD Student"
@@ -59,7 +59,7 @@ minh:
   img: "minh.jpg"
 theanh:
   name: "Vũ Lê Thế Anh"
-  aff: "HCMC University of Science"
+  aff: "VNUHCM University of Science, Vietnam"
   img: "theanh.jpg"
 tu:
   name: "Nguyễn Ngọc Minh Tú"
@@ -71,41 +71,41 @@ tai:
   img: "tai.jpg"
 manh:
   name: "Phạm Nguyễn Mạnh"
-  aff: "Minerva Schools at KGI"
+  aff: "Minerva Schools at KGI, USA"
   img: "manh.jpg"
 khang:
   name: "Nguyễn Vĩnh Khang"
-  aff: "Liberty University"
+  aff: "Liberty University, USA"
   img: "khang.jpeg"
 tien:
   name: "Phan Ngọc Tiên"
-  aff: "York University"
+  aff: "York University, Canada"
   img: "tien.jpg"
 phu:
   name: "Đỗ Hoàng Gia Phú"
-  aff: "Pham Ngoc Thach University of Medical"
+  aff: "Pham Ngoc Thach University of Medical, Vietnam"
   img: "phu.jpg"
 lien:
   name: "Trần Thị Diệu Liên"
-  aff: "Harvard University"
+  aff: "Harvard University, USA"
   img: "lien.jpg"
 tuananh:
   name: "Phạm Nguyễn Tuấn Anh"
-  aff: "​Nanyang Technological University"
+  aff: "​Nanyang Technological University, Singapore"
   img: "tuananh.jpg"
 quan:
   name: "Phạm Tấn Anh Quân"
-  aff: "​HCMC University of Science"
+  aff: "VNUHCM University of Science, Vietnam"
   img: "anhquan.jpg"
 phuong:
   name: "Đinh Lâm Kiều Phương"
-  aff: "​HCMC University of Science"
+  aff: "VNUHCM University of Science, Vietnam"
 nhat:
   name: "Phạm Hoàng Nhật"
   aff: "University of Washington"
 nghia:
   name: "Nguyễn Trung Nghĩa"
-  aff: "​HCMC University of Science"
+  aff: "VNUHCM University of Science, Vietnam"
 trong:
   name: "Dương Đình Trọng"
   aff: "International University, VNU"
@@ -117,7 +117,7 @@ hung:
   aff: "University of Chicago, USA"
 truonghai:
   name: "Nguyễn Trường Hải"
-  aff: "HCMC University of Science"
+  aff: "VNUHCM University of Science, Vietnam"
 nhu:
   name: "Bùi Trần Thục Như"
   aff: "Fulbright University Vietnam"
@@ -132,16 +132,35 @@ lthien:
   aff: "Massachusetts Institute of Technology, USA"
 ngng:
   name: "Nguyễn Nguyễn"
-  aff: "HCMC University of Science"
+  aff: "VNUHCM University of Science, Vietnam"
 ngng2:
   name: "Nguyễn Nguyễn"
-  aff: "Duke University"
+  aff: "Duke University, USA"
 tmnguyen:
   name: "Trần Minh Nguyên"
-  aff: "HCMC University of Science"
+  aff: "VNUHCM University of Science, Vietnam"
 nmhuy:
   name: "Nguyễn Minh Huy"
-  aff: "HCMC University of Science"
+  aff: "VNUHCM University of Science, Vietnam"
 lhphuc:
   name: "Lâm Hữu Phúc"
   aff: "University of Rochester, USA"
+hy:
+  name: "Vương Hy"
+  aff: "BioTuring"
+toan:
+  name: "Vòng Vĩnh Toàn"
+  aff: "VNUHCM University of Science, Vietnam"
+tu_2:
+  name: "Nguyễn Minh Tú"
+  aff: "VNUHCM University of Science, Vietnam"
+danh:
+  name: "Trần Phan Anh Danh"
+  aff: "Nanyang Technological University, Singapore"
+huyen:
+  name: "Võ Thục Khánh Huyền"
+  aff: "Max Planck Institute for Informatics, Germany"
+ngoc:
+  name: "Phạm Thanh Ngọc "
+  aff: "University of California Irvine, USA"
+

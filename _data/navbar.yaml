@@ -3,6 +3,8 @@ navbar:
     href: ""
   - label: Summer Camps
     dropdown:
+      - label: 2023
+        href: "summer_camps/2023"
       - label: 2021
         href: "summer_camps/2021"
       - label: 2019

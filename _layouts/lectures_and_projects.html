@@ -21,7 +21,7 @@ layout: post
             {% assign link = lect.href | strip %}
             {% assign prefix = link | truncate: 7 %}
             {% if prefix != 'http...' %}
-            <a href="{{ site.url }}{{ link }}" target="_blank" class="button {% if link == '' %}disabled{% endif %}">Download</a>
+            <a href="{{ site.url }}{{ link }}" target="_blank" class="button {% if link == '' %}disabled{% endif %}">Link</a>
             {% else %}
             <a href="{{ link }}" target="_blank" class="button">Link</a>
             {% endif %}
@@ -40,7 +40,7 @@ layout: post
         <header><h3>{{ proj.title }}</h3></header>
         <div class="content">
             <p>{{ proj.desc }}</p>
-            <a href="{{ site.url }}{{ proj.href }}" target="_blank" class="button">Download</a>
+            <a href="{{ proj.href }}" target="_blank" class="button">Link</a>
         </div>
     </section>
     <br>
